@@ -2,13 +2,13 @@ body {
     font: 14px "Century Gothic", Futura, sans-serif;
     margin: 20px;
     text-align: center;
-    
+
     background-color: #000;
     background-image:url("https://www.transparenttextures.com/patterns/asfalt-light.png");
     color: #c70039;
-    
+
 }
-  
+
   ol, ul {
     padding-left: 30px;
   }
@@ -21,7 +21,7 @@ body {
     content: "";
     display: table;
   }
-  
+
   .status {
     margin-bottom: 10px;
   }
@@ -29,11 +29,11 @@ body {
       font-size: 30px;
       margin-top: 50px;
   }
- 
+
   .square {
     background-image: url("https://www.transparenttextures.com/patterns/asfalt-light.png");
     background-color: #000;
-    color: #c70039;
+    color: #111;
     border: 4px solid #900c3f;
     float: left;
     font-size: 28px;
@@ -46,26 +46,32 @@ body {
     text-align: center;
     width: 100px;
   }
-  
+.square:active{
+    background-color:#1111;
+}
+.square:enabled{
+    background-color:#1111;
+}
   .square:focus {
     outline: none;
+    background-color:white;
   }
-  
+
   .kbd-navigation .square:focus {
     background: #ddd;
   }
-  
+
   .game {
-      margin-left: 80px;
+      margin-left: 500px;
     display: flex;
     flex-direction: row;
   }
-  
-  
+
+
   .game-info {
     margin-left: 20px;
   }
-  
+
   .welcomeclass{
       color: #c70039;
       font-weight: bold;
